@@ -1,0 +1,287 @@
+body {
+  background-color: #EBEBEB;
+  width: 1300px;
+  margin: 50px auto;
+  color: #9A9A9A;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  padding: 25px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 3px 7px lightgrey;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  padding-right: 125px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 20px 40px;
+}
+
+li.selected {
+  color: white;
+  background-color: #00CCCB;
+  box-shadow: 0px 2px 0px #00AEAD;
+}
+
+li:first-of-type.selected {
+  border-radius: 5px 0 0 5px;
+}
+
+.search-bar {
+  border-left: 1px solid lightgrey;
+  color: lightgray;
+  padding: 5px 35px;
+  flex-grow: 1;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.search-bar .fa {
+  float: right;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  margin: 50px 0;
+}
+
+.profile, .post {
+  height: 450px;
+  width: 285px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.profile .info {
+  flex-grow: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile .info img {
+  border-radius: 50%;
+  width: 45%;
+  margin-bottom: 10px;
+}
+
+.profile .info h1 {
+  font-weight: 300;
+  font-size: 18pt;
+  margin: 0;
+  color: #757575;
+}
+
+.profile .info h2 {
+  display: inline;
+  font-weight: 300;
+  font-size: 10pt;
+  margin-left: 1px;
+}
+
+.profile .info .location {
+  color: darkgray;
+}
+
+.profile .buttons {
+  background-color: #f3f3f3;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile .buttons a {
+  color: #ccc;
+  flex-grow: 1;
+  text-align: center;
+  padding: 25px;
+}
+
+.profile .buttons a:nth-child(2) {
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+}
+
+.post {
+  margin: 0 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.post img {
+  position: absolute;
+  left: -285px;
+  z-index: 0;
+}
+
+.post .info {
+  z-index: 1;
+  position: absolute;
+  width: 225px;
+  padding: 30px;
+  height: 85%;
+  color: white;
+  font-weight: 300;
+  font-size: 10pt;
+}
+
+.post .info span {
+  text-shadow: 0px 0px 10px #bbb;
+}
+
+.post .info .likes {
+  float: right;
+}
+
+.post .button {
+  height: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.post .view-button {
+  box-shadow: 0 0 10px #bbb;
+  color: darkgray;
+  font-size: 9pt;
+  border-radius: 3px;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px 50px;
+}
+
+.article {
+  flex-grow: 1;
+}
+
+.article .image {
+  height: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.article .image img {
+  position: absolute;
+  width: 100%;
+  top: -45px;
+}
+
+.article .search-button {
+  color: white;
+  text-shadow: 0px 0px 5px #888;
+  bottom: 20px;
+  left: 50px;
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  box-shadow: 0px 0px 3px #888;
+}
+
+.article .search-button a {
+  color: white;
+}
+
+.article .body {
+  margin: 30px 50px;
+}
+
+.article .body h1, .article .body h2 {
+  display: inline;
+  margin: 0;
+}
+
+.article .body h1 {
+  font-size: 12pt;
+}
+
+.article .body h2 {
+  margin: 0;
+  font-size: 10pt;
+  color: lightgray;
+  font-weight: 300;
+}
+
+.article .body p {
+  width: 0;
+  min-width: 100%;
+  font-weight: 300;
+  font-size: 10pt;
+}
+
+.article .body .likes {
+  font-size: 10pt;
+  color: lightgray;
+  font-weight: 300;
+  float: right;
+}
+
+.steps {
+  display: flex;
+}
+
+.step {
+  padding: 50px 25px;
+  flex-grow: 1;
+}
+
+.step:nth-child(2) {
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step .number {
+  background-color: #01d2d1;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  width: 93.06px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 24pt;
+  margin-right: 25px;
+}
+
+.step h1 {
+  margin-top: 0;
+  font-size: 12pt;
+}
+
+.step p {
+  font-size: 10pt;
+  font-weight: 300;
+  margin-bottom: 0;
+}

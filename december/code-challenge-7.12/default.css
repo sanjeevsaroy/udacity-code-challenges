@@ -1,0 +1,137 @@
+body {
+  background-color: #EBEBEB;
+  margin: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#basket {
+  margin: 0 auto;
+  width: 750px;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 1px 6px lightgrey;
+}
+
+.header, .products {
+  padding: 30px;
+}
+
+.header {
+  background-color: #F5F5F5;
+  display: flex;
+  color: darkgray;
+  font-size: 10pt;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.product-column {
+  width: 45%;
+}
+
+.quantity-column, .price-column  {
+  width: 27.5%;
+  text-align: center;
+}
+
+.product {
+  display: flex;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #e8e8e8;
+  align-items: center;
+}
+
+.product:last-of-type {
+  margin-bottom: 0;
+}
+
+.info h1 {
+  margin: 0;
+  font-size: 14pt;
+  color: lightslategray;
+}
+
+.info h2 {
+  margin: 0;
+  color: darkgray;
+  font-size: 10pt;
+  font-weight: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+ input {
+  width: 55px;
+}
+
+.quantity input[type=number]::-webkit-inner-spin-button,
+.quantity input[type=number]::-webkit-outer-spin-button {
+   opacity: 1;
+}
+
+.price-column {
+  text-align: right;
+  position: relative;
+}
+
+.price {
+  color: #FF7F66;
+  left: 75px;
+  position: absolute;
+}
+
+.remove-button {
+  color: gray;
+  cursor: pointer;
+}
+
+.summary {
+  margin: 0 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.summary .product-column, .summary .quantity-column, .interactions .product-column  {
+  text-align: center;
+}
+
+.price-wording {
+  position: absolute;
+  left: 20px;
+}
+
+.summary .quantity-column, .summary .price-wording {
+  font-size: 10pt;
+  color: darkgray;
+}
+
+.summary .price-column {
+  display: flex;
+  align-items: center;
+}
+
+.interactions {
+  display: flex;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+button {
+  border: none;
+  padding: 15px 60px;
+  color: white;
+  cursor: pointer;
+}
+
+.update-button {
+  background-color: lightslategray;
+}
+
+.checkout-button {
+  background-color: #FF7F66;
+  position: absolute;
+  left: -57.5px;
+}

@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  background-color: #393939;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  width: 175px;
+  background-color: white;
+  height: 100vh;
+  border-right: 5px solid #2d2d2d;
+}
+
+.header {
+  padding: 10px;
+  background-color: #393939;
+  color: white;
+  height: 120px;
+}
+
+.header h1 {
+  font-size: 26pt;
+  margin: 0;
+}
+
+.header span {
+  font-size: 10pt;
+}
+
+.nav-item {
+  padding: 10px;
+  margin: 10px 0;
+  transition: border-left 0.5s;
+}
+
+.nav-item:hover {
+  border-left-width: 75px;
+}
+
+.nav-item h2 {
+  margin: 0;
+  font-size: 16pt;
+}
+
+.nav-item span {
+  font-size: 9pt;
+}
+
+.nav-item hr {
+  width: 10px;
+  margin-right: 0;
+  margin-left: 0;
+  border-style: solid;
+  border-width: 2px;
+  visibility: hidden;
+}
+
+hr.red {
+  border-color: #EF3724;
+}
+
+hr.green {
+  border-color: #8CC63F;
+}
+
+hr.orange {
+  border-color: #FFA61A;
+}
+
+hr.blue {
+  border-color: #1AB1FF;
+}
+
+hr.pink {
+  border-color: #FC1DCF;
+}
+
+div.red {
+  border-left: 5px solid #EF3724;
+}
+
+div.green {
+  border-left: 5px solid #8CC63F;
+}
+
+div.orange {
+  border-left: 5px solid #FFA61A;
+}
+
+div.blue {
+  border-left: 5px solid #1AB1FF;
+}
+
+div.pink {
+  border-left: 5px solid #FC1DCF;
+}
