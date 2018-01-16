@@ -1,0 +1,114 @@
+body {
+  width: 100vh;
+  height: 100vh;
+  background: #E3E3E3; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#E3E3E3, #C2C2C2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#E3E3E3, #C2C2C2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#E3E3E3, #C2C2C2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#E3E3E3, #C2C2C2); /* Standard syntax */
+  margin: 100px auto;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+  height: 700px;
+  width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 25px #cacaca;
+  overflow: hidden;
+}
+
+.parallax {
+  height: 532.5px;
+  position: relative;
+}
+
+.profile-image {
+  position: absolute;
+  height: 500px;
+  overflow: hidden;
+}
+
+.profile-image img {
+  width: 100%;
+}
+
+.color-filter {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-color: #01046552;
+}
+
+.profile-info {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.profile-info h1, h2 {
+  margin: 0;
+}
+
+.profile-info h1 {
+  font-size: 16pt;
+}
+
+.profile-info h2 {
+  font-size: 9pt;
+  margin-bottom: 30px;
+}
+
+.button-add {
+  cursor: pointer;
+  border-radius: 50%;
+  align-self: center;
+  width: 65px;
+  height: 65px;
+  color: white;
+  border: none;
+  box-shadow: 0px 7px 50px #F23783;
+  background-color: darkorange;
+  background: #F86D52; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#F86D52, #F23783); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#F86D52, #F23783); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#F86D52, #F23783); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#F86D52, #F23783); /* Standard syntax */
+  transition: width 0.6s, height 0.6s;
+}
+
+.button-add:hover {
+  width: 85px;
+  height: 85px;
+}
+
+.profile-stats {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.col-3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.stat-type {
+  color: #D0CFCF;
+  font-size: 10pt;
+}
+
+.stat-data {
+  color: #666666;
+  font-size: 20pt;
+}

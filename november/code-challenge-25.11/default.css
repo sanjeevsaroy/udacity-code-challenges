@@ -1,0 +1,103 @@
+body {
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  margin: 0;
+  margin-bottom: 100px;
+}
+
+.header {
+  text-align: center;
+  background-color: #FAFAFA;
+  padding: 25px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.header h1, h2 {
+  margin: 0;
+}
+
+.header h2 {
+  font-size: 12pt;
+}
+
+.blog {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.articles {
+  width: 65%;
+  margin-right: 100px;
+}
+
+.side-bar {
+  width: 35%;
+}
+
+.container {
+  background-color: #F2F2F2;
+  border: 1px solid lightgrey;
+}
+
+.text-body {
+  padding: 25px;
+}
+
+.container .title {
+  font-size: 20pt;
+}
+
+.container .sub-title {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.about-me {
+  margin-bottom: 50px;
+}
+
+.about-me img {
+  width: 100%;
+}
+
+.about-me h2, .archive h2 {
+  font-size: 18pt;
+}
+
+.about-me .text-body p {
+  font-size: 11pt;
+  margin-bottom: 25px;
+}
+
+.button-contact {
+  background-color: #E53939;
+  font-weight: bold;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.archive {
+  text-align: right;
+  padding-left: 100px;
+}
+
+.archive h2 {
+  margin-bottom: 15px;
+}
+
+.archive a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.archive a {
+  border-bottom: 1px solid black;
+}

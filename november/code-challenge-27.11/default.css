@@ -1,0 +1,65 @@
+body {
+  width: 1400px;
+  margin: 100px auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.red {
+  color: #732221;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.content {
+  width: 33%;
+}
+
+.content:nth-child(2) {
+  margin: 0 100px;
+}
+
+.content figure {
+  margin: 0;
+}
+
+.content img {
+  max-height: 250px;
+  border: 6px solid lightgray;
+  display: block;
+  margin: auto;
+}
+
+.image-caption {
+  padding: 7px;
+  font-size: 10pt;
+}
+
+.content h2 {
+  margin: 0;
+  text-align: center;
+  color: #857C7F;
+}
+
+.content p {
+  padding: 7px;
+  color: gray;
+}
+
+.download-button {
+  margin: 0 auto;
+  display: block;
+  border: none;
+  background-color: #911716;
+  color: white;
+  border-radius: 0;
+  cursor: pointer;
+  padding: 10px 30px;
+  font-size: 12pt;
+}

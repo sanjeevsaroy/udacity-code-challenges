@@ -1,0 +1,165 @@
+body {
+  width: 1400px;
+  background-color: black;
+  margin: 0px auto;
+  text-align: center;
+  font-family: 'Muli', sans-serif;
+}
+
+.heading {
+  /*padding: 20px;
+  margin: 0 auto;*/
+}
+
+.heading h1 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 52px;
+}
+
+.heading h2 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: lighter;
+  font-size: 66px;
+  margin: 0;
+  top: -82px;
+  position: relative;
+}
+
+.yellow {
+  color: #E3DEA3;
+}
+
+.yellow-bg-darker {
+  background: -webkit-linear-gradient(left bottom, #FEE5AE, #F97DAF); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top right, #FEE5AE, #F97DAF); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top right, #FEE5AE, #F97DAF); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top right, #FEE5AE, #F97DAF); /* Standard syntax */
+}
+
+.pink {
+  color: #FE81FE;
+}
+
+.pink-bg-darker {
+  background: -webkit-linear-gradient(left bottom, #D69FFA, #FB7EF6); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top right, #D69FFA, #FB7EF6); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top right, #D69FFA, #FB7EF6); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top right, #D69FFA, #FB7EF6); /* Standard syntax */
+}
+
+.pink-bg-lighter {
+  background: -webkit-linear-gradient(right top, #D69FFA, #FB7EF6); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom left, #D69FFA, #FB7EF6); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom left, #D69FFA, #FB7EF6); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom left, #D69FFA, #FB7EF6); /* Standard syntax */
+}
+
+.blue {
+  color: #79DCF9;
+}
+
+.blue-bg-lighter {
+  background: -webkit-linear-gradient(left bottom, #71C4FA, #78EAE2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(top right, #71C4FA, #78EAE2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top right, #71C4FA, #78EAE2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top right, #71C4FA, #78EAE2); /* Standard syntax */
+}
+
+.blue-bg-darker {
+  background: -webkit-linear-gradient(right top, #71C4FA, #78EAE2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom left, #71C4FA, #78EAE2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom left, #71C4FA, #78EAE2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom left, #71C4FA, #78EAE2); /* Standard syntax */
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-6 {
+  width: 60%;
+  padding-top: 187.5px;
+  margin-right: 10px;
+}
+
+.col-4 {
+  width: 40%
+}
+
+.col-2-8 {
+  width: 20%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
+}
+
+.diamond {
+  background-color: #eee;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari */
+  transform: rotate(45deg);
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 10px;
+  display: table;
+}
+
+.number {
+  -ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Safari */
+  transform: rotate(-45deg);
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.cell {
+  padding: 75px;
+}
+
+.cell.top {
+  margin-bottom: 10px;
+}
+
+.col-2-8.left {
+  margin-right: 5px;
+}
+
+.col-2-8.middle {
+  margin: 0 5px;
+}
+
+.col-2-8.right {
+  margin-left: 5px;
+}
+
+
+/*.diamond {
+  background-color: lightgray;
+  display: inline-block;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari */
+  transform: rotate(45deg);
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: 25px;
+}*/
+
+/*.number {
+  display: inline-block;
+  -ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Safari */
+  transform: rotate(-45deg);
+  position: absolute;
+  right: 20px;
+  top: 14px;
+}*/

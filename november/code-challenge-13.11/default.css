@@ -1,0 +1,35 @@
+body {
+  margin: 10px auto;
+  width: 1000px;
+  border: 1px solid silver;
+  padding: 5px;
+}
+
+.container {
+  border: 1px solid silver;
+  padding: 25px;
+}
+
+.heading {
+  width: 100%;
+}
+
+.columns {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 5px 0px;
+}
+
+.width-col-3 {
+  width: 33%;
+  height: 100%;
+}
+
+.middle {
+  margin: 0px 5px;
+}
+
+.lightgray {
+  background-color: #eee;
+}

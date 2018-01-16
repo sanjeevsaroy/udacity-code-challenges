@@ -1,0 +1,203 @@
+body {
+  background-color: #1F253D;
+  width: 1200px;
+  margin: 75px auto;
+  color: white;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.content {
+  background-color: #394264;
+  border-radius: 4px;
+}
+
+.nav {
+  padding: 20px;
+  display: flex;
+}
+
+.nav-list-horizontal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-link {
+  float: left;
+  padding: 0 40px;
+}
+
+.nav-left  {
+  width: 70%;
+  margin-top: 15.235px;
+}
+
+.nav-right {
+  width: 30%;
+  text-align: right;
+}
+
+.nav-name {
+  bottom: 15.235px;
+  left: -15px;
+  position: relative;
+}
+
+.nav-notification {
+  position: relative;
+}
+
+.notification-bubble-red {
+  top: -18px;
+  right: 423px;
+  position: absolute;
+  background-color: red;
+  border-radius: 50px;
+  padding: 1px 7px;
+  text-align: center;
+}
+
+.display-picture {
+  width: 12%;
+  border-radius: 50%;
+  border: 2px solid #545E80;
+}
+
+.container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.col-4 {
+  width: 33.3%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.col-4.middle {
+  margin: 0 50px;
+}
+
+.menu-header {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #11A8AB;
+}
+
+#menu {
+  background: none;
+  text-align: left;
+}
+
+.menu-header h2 {
+  margin: 0;
+  padding: 25px;
+}
+
+.menu-item {
+  display: flex;
+  padding: 25px 30px 25px 75px;
+  background-color: #394264;
+  margin-bottom: 2px;
+}
+
+.menu-item > a {
+  width: 100%;
+}
+
+.menu-item.bottom {
+  margin-bottom: 0px;
+}
+
+.menu-link {
+  padding-top: 3px;
+}
+
+.notification-bubble-default {
+  background-color: #50597B;
+  border-radius: 50px;
+  padding: 3px 10px;
+  width: 10%;
+  text-align: center;
+}
+
+#profile, #newsletter {
+  padding: 40px 0px;
+}
+
+#profile {
+  padding-bottom: 20px;
+}
+
+#profile .display-picture {
+  width: 50%;
+  border: 6px solid #545E80;
+}
+
+.sub-text {
+  color: #7A8EAB;
+}
+
+.profile-stats {
+  display: flex;
+  margin-top: 60px
+}
+
+.profile-stat {
+  width: 33.3%;
+  padding: 30px;
+}
+
+.posts {
+  border-top: 4px solid #FCB150;
+}
+
+.followers {
+  border-top: 4px solid #11A8AB;
+}
+
+.following {
+  border-top: 4px solid #E64C65;
+}
+
+.profile-stat.middle {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#newsletter h2 {
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+#newsletter form {
+  padding: 25px;
+  padding-bottom: 0px;
+}
+
+#newsletter .input-email {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  padding: 25px 60px;
+  background-color: #4f587c;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+}
+
+#newsletter .input-submit {
+  color: white;
+  background-color: #00a8ac;
+  border: none;
+  padding: 25px 60px;
+  font-size: 12pt;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,86 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1497996377197-e4b9024658a4?auto=format&fit=crop&w=1950&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.yellow {
+  color: #FCC92F;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.nav {
+  margin: 50px auto;
+  width: 475px;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav li {
+  width: 25%;
+  padding: 1px 0;
+  border-right: 1px solid #FCC92F;
+  font-size: 14pt;
+}
+
+li.last-child {
+  border: none;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.header {
+  font-size: 18pt;
+}
+
+.jumbotron {
+  margin: 200px 0;
+}
+
+.jumbotron h1 {
+  text-transform: uppercase;
+  font-size: 30pt;
+}
+
+.jumbotron h2 {
+  font-weight: normal;
+}
+
+.jumbotron > h1,h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.button-cta {
+  cursor: pointer;
+  display: inline;
+}
+
+.button {
+  text-transform: uppercase;
+  background-color: #FCC92F;
+  display: inline;
+  padding: 15px 35px;
+  border-radius: 6px;
+  color: #4682AA;
+  font-weight: bold;
+  box-shadow: 0px 10px 0px #F5BA04;
+  font-size: 18pt;
+}
